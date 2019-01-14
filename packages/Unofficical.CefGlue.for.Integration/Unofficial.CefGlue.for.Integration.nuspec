@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Unofficial.CefGlue.for.Integration</id>
+    <version>3.3578.1860</version>
+    <authors>Rukai Yu</authors>
+    <owners>Rukai Yu</owners>
+    <licenseUrl>https://bitbucket.org/chromiumembedded/cef/raw/4b5c38eeb4030c1114417886df16af9c1e54f01a/LICENSE.txt</licenseUrl>
+    <projectUrl>https://bitbucket.org/chromiumembedded/cef</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Am unofficial fork of official http://xilium.bitbucket.org/cefglue/ extended with
+easy nuget package creation and native dependencies injection.</description>
+    <releaseNotes>Release for 3.3578.1860.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Chromium Chromium HTLM Embedded C#</tags>
+    <dependencies>
+      <dependency id="cef.redist.x64" version="3.3578.1860" />
+      <dependency id="cef.redist.x86" version="3.3578.1860" />
+    </dependencies>
+  </metadata>
+</package>
