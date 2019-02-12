@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Reference Include="ChromiumFX" Condition="'$(Platform)' == 'x86'">
+      <HintPath>$(MSBuildThisFileDirectory)..\ChromiumFX\x86\ChromiumFX.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ChromiumWebBrowser" Condition="'$(Platform)' == 'x86'">
+      <HintPath>$(MSBuildThisFileDirectory)..\ChromiumFX\x86\ChromiumWebBrowser.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ChromiumFX" Condition="'$(Platform)' == 'x64'">
+      <HintPath>$(MSBuildThisFileDirectory)..\ChromiumFX\x64\ChromiumFX.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ChromiumWebBrowser" Condition="'$(Platform)' == 'x64'">
+      <HintPath>$(MSBuildThisFileDirectory)..\ChromiumFX\x64\ChromiumWebBrowser.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ChromiumFX" Condition="'$(Platform)' == 'AnyCPU'">
+      <HintPath>$(MSBuildThisFileDirectory)..\ChromiumFX\AnyCPU\ChromiumFX.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ChromiumWebBrowser" Condition="'$(Platform)' == 'AnyCPU'">
+      <HintPath>$(MSBuildThisFileDirectory)..\ChromiumFX\AnyCPU\ChromiumWebBrowser.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

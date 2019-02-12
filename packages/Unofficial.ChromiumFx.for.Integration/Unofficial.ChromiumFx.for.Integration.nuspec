@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-    <metadata>
+    <metadata minClientVersion="2.5">
         <id>Unofficial.ChromiumFx.for.Integration</id>
         <version>3.3578.1860</version>
         <authors>Rukai Yu</authors>
@@ -13,9 +13,17 @@ Windows Forms control based on ChromiumFX</description>
         <summary>.NET bindings for the Chromium Embedded Framework.</summary>
         <releaseNotes>Release for 3.3578.1860.</releaseNotes>
         <tags>Chromium, HTLM, Embedded, C#</tags>
-        <dependencies>
-            <dependency id="cef.redist.x64" version="3.3578.1860" />
-            <dependency id="cef.redist.x86" version="3.3578.1860" />
-        </dependencies>
+        <!-- <dependencies>
+            <dependency id="Unofficial.Cef.for.Integration.x64" version="3.3578.1860" />
+            <dependency id="Unofficial.Cef.for.Integration.x86" version="3.3578.1860" />
+        </dependencies> -->
     </metadata>
+    <files>
+        <!-- Include everything in \build -->
+        <file src="build\**" target="build" />
+        <file src="ChromiumFX\**" target="ChromiumFX" />
+
+        <!-- Other files -->
+        <!-- ... -->
+    </files>
 </package>
