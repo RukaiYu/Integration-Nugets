@@ -12,6 +12,8 @@ IMPORTANT
 
     * For x64, copy Release and Resources folders to ./build/cef64
 
+    CEF Runtime builds: http://opensource.spotify.com/cefbuilds/index.html
+
 2. BUILD
 
     Run Command
